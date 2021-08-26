@@ -4040,7 +4040,7 @@ void DFOCC::remp_manager() {
 
     energy_ = Eremp;
     variables_["CURRENT ENERGY"] = Eremp;
-    variables_["LCCD TOTAL ENERGY"] = Eremp;
+    variables_["REMP TOTAL ENERGY"] = Eremp;
 
     variables_["CURRENT REFERENCE ENERGY"] = Escf;
     variables_["CURRENT CORRELATION ENERGY"] = Eremp - Escf;
